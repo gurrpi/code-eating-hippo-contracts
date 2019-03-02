@@ -6,3 +6,7 @@ node_js:
 
 script:
   - npm run test
+
+cache:
+  directories:
+    - "$HOME/.npm"
